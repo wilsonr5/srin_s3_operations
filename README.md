@@ -16,6 +16,7 @@ aws s3api put-object --bucket <bucket_name> --key <bucket_path> [--options]
 
 ### Update Object
 aws s3api put-object --bucket <bucket_name> --key <bucket_path> --body <local_path> [--options]
+
 aws s3 sync <local_path> s3://<bucket_path> [--options]
 
 ### Delete Object
